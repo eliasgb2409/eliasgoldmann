@@ -261,6 +261,19 @@ header {
     }
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        visibility: visible;
+
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
+
+    }
+}
+
 .profile {
     animation: slideInFromLeft 1s ease 0.2s forwards;
 }

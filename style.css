@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    color:#895EFF;
+    margin-right: 1050px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-right: 100px;
+
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.profile-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile-picture {
+    flex: 1;
+    text-align: right;
+    width:100%;
+}
+
+.highlighted-text {
+    color: #895EFF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 300px;
+}
+
+.projects{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.projects-title{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.Row {
+    margin-top: 20px;
+
+    display: table;
+    width: 100%; 
+    table-layout: fixed; 
+    border-spacing: 12px; 
+    max-width: 1300px;
+    margin-left: 87px;
+
+}
+
+.project{
+    display: table-cell;
+    margin-left: 100px;
+    max-width: 300px;
+}
+
+.read-more-link{
+    color: #895EFF;
+    text-decoration: none;
+
+}
+
+.footer{
+    margin-left: 1150px;
+    font-size: 12px;
+}

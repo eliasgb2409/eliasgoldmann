@@ -18,8 +18,9 @@ header {
 
 .logo{
     color:#895EFF;
-    margin-right: 1050px;
+    margin-right: 1085px;
 }
+
 
 .social-icons {
     display: flex;
@@ -53,21 +54,36 @@ header {
     padding: 20px;
 }
 
-.profile-picture {
+.profile-picture img{
     flex: 1;
     text-align: right;
-    width:100%;
+    max-width:100%;
+    display: block;
+    height: auto;
+    border-radius: 50%;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.bold-text {
+    width: 500px; 
+    display: inline-block; 
 }
 
 .highlighted-text {
     color: #895EFF;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-    width: 300px;
+.about-me{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    max-width: 1220px;
+}
+
+.me-description{
+    margin-top: 30px;
+    line-height: 1.8;
 }
 
 .projects{
@@ -82,14 +98,12 @@ img {
 
 .Row {
     margin-top: 20px;
-
     display: table;
     width: 100%; 
     table-layout: fixed; 
     border-spacing: 12px; 
-    max-width: 1300px;
+    max-width: 1220px; 
     margin-left: 87px;
-
 }
 
 .project{
@@ -98,13 +112,129 @@ img {
     max-width: 300px;
 }
 
+.project-description{
+    line-height: 1.5;
+}
+
 .read-more-link{
     color: #895EFF;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
 
+.read-more-link:hover {
+    color: #b49bf8; 
+}
+
+.read-more-link:active {
+    color: #d5c7fd;
 }
 
 .footer{
     margin-left: 1150px;
     font-size: 12px;
 }
+
+@media screen and (max-width: 600px) {
+
+    body{
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .logo {
+        margin-right: 200px; 
+    }
+
+    .social-icons {
+        margin-right: 10px; 
+    }
+
+    .profile {
+        flex-direction: column; 
+        align-items: center;
+        padding: 20px;
+        margin-right: 20px;
+    }
+
+    .profile-content {
+        text-align: center; 
+        margin-left: 0; 
+    }
+
+    .profile-text {
+        padding: 10px;
+        font-size: small;
+    }
+
+    .profile-picture img {
+        width: 200px; 
+    }
+
+    .bold-text {
+        text-align: center; 
+    }
+
+    .about-me{
+        margin-top: 1px;
+        margin-bottom: 25px;
+        margin-left: 100px;
+        max-width: 100%;
+    }
+
+    .projects {
+        margin-top: 1px;
+        margin-bottom: 50px;
+    }
+
+    .projects-title {
+        margin-top: 100px;
+        margin-right: 500px;
+    }
+
+    .Row {
+        margin-top: 20px;
+        display: block;
+        max-width: 100%;
+        margin-right: 500px;
+    }
+
+    .project {
+        margin-left: 10px; 
+        max-width: 100%;
+    }
+
+    .read-more-link {
+        color: #895EFF;
+        text-decoration: none;
+    }
+
+    .footer {
+        margin-left: 10px; 
+        font-size: 12px;
+    }
+
+ 
+}
+
+
+/*Bastionen.hmtl, bingers.html */
+
+.button-container {
+    padding-top: 50px; 
+}
+
+.back-button{
+    color: white;
+    margin-left: 73px;
+    transition: color 0.3s ease;
+    margin-left: 100px;
+}
+
+.back-button:hover{
+    color: #b49bf8;
+}
+.back-button:active {
+    color: #d5c7fd;
+}
+

@@ -130,21 +130,6 @@ header {
     color: #d5c7fd;
 }
 
-.figma-link{
-    color: #895EFF;
-    text-decoration: none; /*Ikke sikker på hva som er best her, med eller uten understrek?*/
-    transition: color 0.3s ease;
-    
-}
-
-.figma-link:hover {
-    color: #b49bf8; 
-}
-
-.figma-link:active {
-    color: #d5c7fd;
-}
-
 .footer{
     margin-left: 1150px;
     font-size: 12px;

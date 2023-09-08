@@ -130,9 +130,30 @@ header {
     color: #d5c7fd;
 }
 
+.figma-link{
+    color: #895EFF;
+    text-decoration: none; /*Ikke sikker på hva som er best her, med eller uten understrek?*/
+    transition: color 0.3s ease;
+    
+}
+
+.figma-link:hover {
+    color: #b49bf8; 
+}
+
+.figma-link:active {
+    color: #d5c7fd;
+}
+
 .footer{
     margin-left: 1150px;
     font-size: 12px;
+}
+
+.next-footer{
+    margin-left: 1150px;
+    font-size: 12px;
+    margin-top: 190px;
 }
 
 @media screen and (max-width: 600px) {
@@ -214,11 +235,16 @@ header {
         font-size: 12px;
     }
 
+    .next-footer{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
  
 }
 
 
-/*Bastionen.hmtl, bingers.html */
+/*Bastionen.hmtl, bingers.html, in2000.html */
 
 .button-container {
     padding-top: 50px; 
@@ -238,12 +264,17 @@ header {
     color: #d5c7fd;
 }
 
+.p-description{
+    margin-bottom: 50px;
+}
+
 /*Animations*/
 
 .profile,
 .about-me,
 .projects,
-.footer {
+.footer,
+.next-footer{
     visibility: hidden;
 }
 
@@ -287,6 +318,10 @@ header {
 }
 
 .footer {
+    animation: fadeIn 1s ease 1s forwards;
+}
+
+.next-footer{
     animation: fadeIn 1s ease 1s forwards;
 }
 

@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    //basePath: '/eliasgoldmann',
-    //assetPrefix: '/eliasgoldmann//
+    
     output: "export",
 };
 
-/* module.exports = nextConfig*/
-export default nextConfig;
+module.exports = nextConfig
+//export default nextConfig;

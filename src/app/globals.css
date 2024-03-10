@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255; 
+  --background-start-rgb: 0, 0, 0; 
+  /* --background-end-rgb: 159, 122, 234;  purple 400*/
+  --background-end-rgb: 168, 85, 247; /* purple 500 */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0; /* Optional: Adjust for dark mode if different */
+    /*--background-end-rgb: 159, 122, 234;  Optional: Adjust for dark mode if different */
+    --background-end-rgb: 168, 85, 247;
+  }
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)) 0%, 
+    rgb(var(--background-start-rgb)) 85%, /* black continues until 70% */
+    rgb(var(--background-end-rgb)) 180% /* then transitions to purple-500 by the end */
+  );
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

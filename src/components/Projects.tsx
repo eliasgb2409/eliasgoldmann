@@ -1,9 +1,9 @@
 "use client"
 import Image from "next/image";
-import lokaletips from "/lokaletips.png"
-import bastionen from "/bastionen.png"
-import openai from "/openai.png"
-import dhis2 from "/dhis2.png"
+//import lokaletips from "/lokaletips.png"
+//import bastionen from "/bastionen.png"
+//import openai from "/openai.png"
+//import dhis2 from "/dhis2.png"
 import Link from "next/link";
 
 export default function ProjectList(){
@@ -62,7 +62,7 @@ const projectContent = [
         </>
       ),
       image:
-        dhis2,
+        "/dhis2.png",
       link: (
           <Link href={"https://github.uio.no/eirikjl/IN5320_project"} className="underline" target="_blank">Github</Link>
       )
@@ -93,7 +93,7 @@ const projectContent = [
         </>
       ),
       image:
-      lokaletips,
+        "/lokaletips.png",
       link: (
         <Link href={"https://www.figma.com/proto/oDHP55eSlvzvY4YX45yGM8/Wireframe?page-id=0%3A1&node-id=1-189&viewport=491%2C327%2C0.08&scaling=scale-down&starting-point-node-id=1%3A409"} className="underline" target="_blank">Figma-link</Link>
       )
@@ -121,7 +121,7 @@ const projectContent = [
           </>
         ),
         image:
-        openai,
+          "/openai.png",
         link: (
           <Link href={""} className="underline pointer-events-none" target="_blank">Coming soon</Link>
         )
@@ -142,7 +142,7 @@ const projectContent = [
         </>
       ),
       image:
-      bastionen,
+        "/bastionen.png",
       link: (
         <Link href={"https://www.figma.com/proto/zuD8FY68Ngq7DaES2zzfnW/Bastionen---Nettside?page-id=0%3A1&node-id=25-532&viewport=398%2C170%2C0.23&scaling=min-zoom"} className="underline" target="_blank">Figma-fil</Link>
       )

@@ -1,12 +1,11 @@
 import Image from "next/image";
-import portrett from "../assets/portrett.png";
+import portrett from "./assets/portrett.png";
 import Bio from "../components/Bio";
 import Header from "../components/Header";
 import Link from "next/link";
 import { Title } from "../components/Title";
 import { TracingBeam } from "../components/TracingBeam";
 import ProjectList from "../components/Projects";
-import Head from "next/head";
 
 
 export default function Home() {

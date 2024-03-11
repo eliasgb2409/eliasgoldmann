@@ -1,9 +1,10 @@
 "use client"
 import Image from "next/image";
-//import lokaletips from "/lokaletips.png"
-//import bastionen from "/bastionen.png"
-//import openai from "/openai.png"
-//import dhis2 from "/dhis2.png"
+import lokaletips from "..public/images/lokaletips.png"
+import bastionen from "..public/images/bastionen.png"
+import openai from "..public/images/openai.png"
+import dhis2 from "..public/images/dhis2.png"
+import amadeus from "..public/images/amadeus.png"
 import Link from "next/link";
 
 export default function ProjectList(){
@@ -62,7 +63,8 @@ const projectContent = [
         </>
       ),
       image:
-        "../public/dhis2.png",
+        //"../public/dhis2.png",
+        dhis2,
       link: (
           <Link href={"https://github.uio.no/eirikjl/IN5320_project"} className="underline" target="_blank">Github</Link>
       )
@@ -93,7 +95,8 @@ const projectContent = [
         </>
       ),
       image:
-        "../public/lokaletips.png",
+        //"../public/lokaletips.png",
+        lokaletips,
       link: (
         <Link href={"https://www.figma.com/proto/oDHP55eSlvzvY4YX45yGM8/Wireframe?page-id=0%3A1&node-id=1-189&viewport=491%2C327%2C0.08&scaling=scale-down&starting-point-node-id=1%3A409"} className="underline" target="_blank">Figma-link</Link>
       )
@@ -121,7 +124,8 @@ const projectContent = [
           </>
         ),
         image:
-          "../public/openai.png",
+          //"../public/openai.png"
+          openai,
         link: (
           <Link href={""} className="underline pointer-events-none" target="_blank">Coming soon</Link>
         )
@@ -142,7 +146,8 @@ const projectContent = [
         </>
       ),
       image:
-        "../public/bastionen.png",
+        //"../public/bastionen.png",
+        bastionen,
       link: (
         <Link href={"https://www.figma.com/proto/zuD8FY68Ngq7DaES2zzfnW/Bastionen---Nettside?page-id=0%3A1&node-id=25-532&viewport=398%2C170%2C0.23&scaling=min-zoom"} className="underline" target="_blank">Figma-fil</Link>
       )
@@ -169,7 +174,8 @@ const projectContent = [
         </>
       ),
       image:
-        "../public/amadeus.png",
+        //"../public/amadeus.png",
+        amadeus,
       link: (
         <Link href={"https://www.uio.no/studier/emner/matnat/ifi/IN1060/v21/prosjekter-var-2021/amadeus/"} className="underline" target="_blank">Prosjektbeskrivelse og Github</Link>
       )

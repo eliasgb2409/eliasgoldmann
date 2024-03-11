@@ -1,11 +1,11 @@
 import Image from "next/image";
-//import portrett from "/portrett.png";
+import portrett from "..public/images/portrett.png";
 import Bio from "../components/Bio";
 import Header from "../components/Header";
 import Link from "next/link";
 import { Title } from "../components/Title";
 import { TracingBeam } from "../components/TracingBeam";
-import ProjectList from "../components/Projects";
+import ProjectList from "../../public/images/Projects";
 
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center mb-10">
           <Image
                 className="rounded-full md:ml-10 lg:ml-20"
-                src="../public/portrett.jpg"
+                src={portrett}
                 alt="portrett"
                 width={250}
                 height={75}

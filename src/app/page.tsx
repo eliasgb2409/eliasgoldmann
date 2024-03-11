@@ -1,5 +1,5 @@
 import Image from "next/image";
-import portrett from "/images/portrett.png";
+import portrett from "images/portrett.png";
 import Bio from "../components/Bio";
 import Header from "../components/Header";
 import Link from "next/link";

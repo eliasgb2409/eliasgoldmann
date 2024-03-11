@@ -1,10 +1,10 @@
 "use client"
 import Image from "next/image";
-import lokaletips from "..public/images/lokaletips.png"
-import bastionen from "..public/images/bastionen.png"
-import openai from "..public/images/openai.png"
-import dhis2 from "..public/images/dhis2.png"
-import amadeus from "..public/images/amadeus.png"
+import lokaletips from ".public/images/lokaletips.png"
+import bastionen from ".public/images/bastionen.png"
+import openai from ".public/images/openai.png"
+import dhis2 from ".public/images/dhis2.png"
+import amadeus from ".public/images/amadeus.png"
 import Link from "next/link";
 
 export default function ProjectList(){

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import portrett from "/portrett.png";
+//import portrett from "/portrett.png";
 import Bio from "../components/Bio";
 import Header from "../components/Header";
 import Link from "next/link";
@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center mb-10">
           <Image
                 className="rounded-full md:ml-10 lg:ml-20"
-                src={portrett}
+                src="/portrett.png"
                 alt="portrett"
                 width={250}
                 height={75}

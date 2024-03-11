@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center mb-10">
           <Image
                 className="rounded-full md:ml-10 lg:ml-20"
-                src="/portrett.png"
+                src="/portrett.jpg"
                 alt="portrett"
                 width={250}
                 height={75}

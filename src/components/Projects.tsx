@@ -50,7 +50,7 @@ const projectContent = [
       description: (
         <>
           <p>
-            I emnet IN5320 - Development in Platforms Ecosystems utviklet 
+            I emnet IN5320 - Development in Platforms Ecosystems, utviklet 
             gruppen min og jeg en webapplikasjon for DHIS2 platformen.
             Basert på en casebeskrivelse brukte vi React, DHIS2-apputviklingsplattformen, 
             DHIS2 UI-biblioteket og styleguide, RESTful API for å hente relevant data 
@@ -62,7 +62,7 @@ const projectContent = [
         </>
       ),
       image:
-        "/dhis2.png",
+        "../public/dhis2.png",
       link: (
           <Link href={"https://github.uio.no/eirikjl/IN5320_project"} className="underline" target="_blank">Github</Link>
       )
@@ -75,7 +75,7 @@ const projectContent = [
       description: (
         <>
           <p>
-            I emnet IN2000 utviklet teamet mitt en app for turisme i Oslo. Appen skulle 
+            I emnet IN2000 - Software Engineering med prosjektarbeid, utviklet teamet mitt en app for turisme i Oslo. Appen skulle 
             fremheve "lokale" tips for ting å gjøre i vår kjære hovedstad. Oslo - 
             Lokale tips tilbyr informasjon om en rekke restauranter, badeplasser, 
             parker, utesteder, osv. Den vil vise åpningstider, badetemperatur, 
@@ -93,7 +93,7 @@ const projectContent = [
         </>
       ),
       image:
-        "/lokaletips.png",
+        "../public/lokaletips.png",
       link: (
         <Link href={"https://www.figma.com/proto/oDHP55eSlvzvY4YX45yGM8/Wireframe?page-id=0%3A1&node-id=1-189&viewport=491%2C327%2C0.08&scaling=scale-down&starting-point-node-id=1%3A409"} className="underline" target="_blank">Figma-link</Link>
       )
@@ -121,7 +121,7 @@ const projectContent = [
           </>
         ),
         image:
-          "/openai.png",
+          "../public/openai.png",
         link: (
           <Link href={""} className="underline pointer-events-none" target="_blank">Coming soon</Link>
         )
@@ -142,9 +142,36 @@ const projectContent = [
         </>
       ),
       image:
-        "/bastionen.png",
+        "../public/bastionen.png",
       link: (
         <Link href={"https://www.figma.com/proto/zuD8FY68Ngq7DaES2zzfnW/Bastionen---Nettside?page-id=0%3A1&node-id=25-532&viewport=398%2C170%2C0.23&scaling=min-zoom"} className="underline" target="_blank">Figma-fil</Link>
+      )
+    },
+    {
+      title: "FOKUS",
+      details: "Arduino, Figma",
+      height: 300,
+      width: 300,
+      description: (
+        <>
+          <p>
+            Gruppen min utviklet artefaktet FOKUS som skulle fungere som et mobilhotell i 
+            emnet IN1060 - Bruksorientert design. FOKUS hjelper brukeren å legge fra seg 
+            telefonen slik at han/hun kan konsentrere seg bedre om arbeidsoppgavene sine.
+            Brukeren plasserer mobilen i boksen og stiller inn en timer for ønsket varighet 
+            av mobilfri tid. Den angitte tiden vises på en LCD-skjerm. FOKUS benytter en lyssensor 
+            i kombinasjon med databehandling for å avgjøre om brukeren har plassert mobilen inne i 
+            boksen, eller om den har blitt fjernet. For å gi tilbakemelding til brukeren, er lysdioder 
+            og lyd integrert. Dette gir feedback basert på om brukeren har lykkes i å unngå å ta ut 
+            mobilen i løpet av det angitte tidsrommet, eller hvis mobilen har blitt tatt ut før 
+            den fastsatte tiden har utløpt.
+          </p>
+        </>
+      ),
+      image:
+        "../public/amadeus.png",
+      link: (
+        <Link href={"https://www.uio.no/studier/emner/matnat/ifi/IN1060/v21/prosjekter-var-2021/amadeus/"} className="underline" target="_blank">Prosjektbeskrivelse og Github</Link>
       )
     },
   ];

@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Link from "next/link";
 import { Title } from "../components/Title";
 import { TracingBeam } from "../components/TracingBeam";
-import ProjectList from "../../public/Projects";
+import ProjectList from "../components/Projects";
 
 
 export default function Home() {

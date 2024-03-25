@@ -66,7 +66,7 @@ const projectContent = [
       "./arcade.png",
       //dhis2,
     link: (
-        <Link href={"https://arcade-analytics-cayibgbu7-eliasgb2409s-projects.vercel.app/"} className="underline" target="_blank">Link til nettside</Link>
+        <Link href={"https://arcade-analytics.vercel.app/"} className="underline" target="_blank">Link til nettside</Link>
     )
   },
 

@@ -20,7 +20,7 @@ export default function ProjectList(){
                     </p>
                     <div className="text-base mt-3 prose prose-sm dark:prose-invert">
                         {item?.image && (
-                            <Image
+                            <img
                             src={item.image}
                             alt="project-image"
                             height={item.height}

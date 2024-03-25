@@ -29,13 +29,12 @@ export default function Home() {
         <div className="mt-20 mb-20 grid lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2">
           <Bio />
           <div className="flex flex-col items-center justify-center mb-10">
-          <Image
+          <img
                 className="rounded-full md:ml-10 lg:ml-20"
                 src="/portrett.png"
                 alt="portrett"
                 width={250}
                 height={75}
-                priority
               />
           </div>
         </div>

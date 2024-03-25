@@ -41,8 +41,35 @@ export default function ProjectList(){
     )
 }
 
-
 const projectContent = [
+
+  {
+    title: "Arcade Analytics",
+    height: 400,
+    width: 400,
+    details: "Next.js, React, TypeScript, TailwindCSS, RESTful API, Web-scraping",
+    description: (
+      <>
+        <p>
+        Dette prosjektet presenterer en dynamisk og interaktiv nettside designet 
+        for å fremheve trendene innen videospill, med spesielt fokus på de mest 
+        populære spillene, som bestemmes av Steam's "Top Sellers" liste. 
+        Ved å integrere både direkte data fra Steam's API og raffinert informasjon gjennom 
+        web-scraping, tilbyr denne plattformen en omfattende oversikt over de 100 mest solgte spillene, 
+        inkludert oppdatert statistikk om antall aktive spillere.
+
+        Nedenfor er link til nettsiden:
+        </p>
+      </>
+    ),
+    image:
+      "./arcade.png",
+      //dhis2,
+    link: (
+        <Link href={"https://arcade-analytics-cayibgbu7-eliasgb2409s-projects.vercel.app/"} className="underline" target="_blank">Link til nettside</Link>
+    )
+  },
+
     {
       title: "DHIS2",
       height: 400,
